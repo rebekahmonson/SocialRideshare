@@ -110,8 +110,8 @@ CakePlugin::load('BoostCake');
 CakePlugin::load('Opauth', array('routes' => true, 'bootstrap' => true));
 // Using Foursquare strategy as an example
 Configure::write('Opauth.Strategy.Facebook', array(
-   'client_id' => '1474637676103116',
-   'client_secret' => '52a544aa6abab3ef44f712ccf26227b3'
+   'app_id' => '855771881106106',
+   'app_secret' => 'ad45e5f164f326d9aba26adb6cf4031a'
 ));
 //time zone
 Configure::write('Config.timezone', 'America/New_York');

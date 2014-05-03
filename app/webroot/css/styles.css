@@ -57,9 +57,15 @@ html {
   min-height: 100%; /*for sticky footer*/
 }
 body {
-  /* Margin bottom by sticky footer height */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; 
   background-color: #DBEDFF;
+  /* Margin bottom by sticky footer height */
   margin-bottom: 160px;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; 
 }
 .btn-default{
   background-color: #ed7d71;

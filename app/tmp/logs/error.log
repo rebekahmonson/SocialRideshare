@@ -286,3 +286,194 @@ Request URL: /img/sunrise4.png
 Stack Trace:
 #0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-05-03 13:58:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:59:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:59:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:00:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:00:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:00:23 Error: Fatal Error (256): FacebookStrategy config parameter for "app_id" expected. in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/OpauthStrategy.php, line 201]
+2014-05-03 14:00:23 Error: [FatalErrorException] FacebookStrategy config parameter for "app_id" expected.
+Request URL: /auth/facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'FacebookStrateg...', '/Volumes/Storag...', 201)
+#1 [internal function]: ErrorHandler::handleError(256, 'FacebookStrateg...', '/Volumes/Storag...', 201, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/OpauthStrategy.php(201): trigger_error('FacebookStrateg...', 256)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/OpauthStrategy.php(71): OpauthStrategy->expects('app_id')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(112): OpauthStrategy->__construct(Array, Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#6 [internal function]: OpauthAppController->index('facebook')
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#10 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-05-03 14:00:23 Error: Fatal Error (256): FacebookStrategy config parameter for "app_id" expected. in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/OpauthStrategy.php, line 201]
+2014-05-03 14:00:23 Error: [FatalErrorException] FacebookStrategy config parameter for "app_id" expected.
+Request URL: /auth/facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'FacebookStrateg...', '/Volumes/Storag...', 201)
+#1 [internal function]: ErrorHandler::handleError(256, 'FacebookStrateg...', '/Volumes/Storag...', 201, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'FacebookStrateg...', '/Volumes/Storag...', 201, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 14:16:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:17:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:19:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:20:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:20:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:42:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:47:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 14:47:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 15:07:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 15:09:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 15:09:59 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 102]
+2014-05-03 15:09:59 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 102)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 102, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 102, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 15:12:19 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 40]
+2014-05-03 15:12:19 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 40, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 40, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 15:12:56 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 40]
+2014-05-03 15:12:56 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 40)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 40, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 40, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

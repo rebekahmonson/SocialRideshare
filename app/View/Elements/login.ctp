@@ -9,7 +9,7 @@
 			echo 'nope';
 			}?> -->
 
-		<a href="http://where-do-i.us/auth/foursquare"><button type="submit" class="btn btn-default btn-sm"><i class="fa fa-facebook-square"></i> Log in </button></a>
+		<a href="/auth/facebook"><button type="submit" class="btn btn-default btn-sm"><i class="fa fa-facebook-square"></i> Log in </button></a>
     	
 
    	
