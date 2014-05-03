@@ -1,0 +1,288 @@
+2014-05-03 12:00:34 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Config/bootstrap.php(110): CakePlugin::load('Search')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/Configure.php(92): include('/Volumes/Storag...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(94): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#5 {main}
+2014-05-03 12:00:34 Error: Fatal Error (4): syntax error, unexpected ';', expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/AppController.php, line 61]
+2014-05-03 12:00:34 Error: [FatalErrorException] syntax error, unexpected ';', expecting function (T_FUNCTION)
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 61, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 61, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 12:08:30 Error: [MissingPluginException] Plugin Search could not be found.
+Exception Attributes: array (
+  'plugin' => 'Search',
+)
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Config/bootstrap.php(110): CakePlugin::load('Search')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/Configure.php(92): include('/Volumes/Storag...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(94): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#5 {main}
+2014-05-03 12:09:41 Error: Fatal Error (4): syntax error, unexpected ';', expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/AppController.php, line 61]
+2014-05-03 12:09:41 Error: [FatalErrorException] syntax error, unexpected ';', expecting function (T_FUNCTION)
+Request URL: /
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 61, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 61, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 12:56:25 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#6 {main}
+2014-05-03 12:56:30 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#6 {main}
+2014-05-03 12:56:39 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#6 {main}
+2014-05-03 12:57:31 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#6 {main}
+2014-05-03 12:57:37 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Website/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#6 {main}
+2014-05-03 13:01:39 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Config/bootstrap.php(108): CakePlugin::load('DebugKit')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/Configure.php(92): include('/Volumes/Storag...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/bootstrap.php(175): Configure::bootstrap(true)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(94): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/index.php(41): require('/Volumes/Storag...')
+#5 {main}
+2014-05-03 13:25:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:28:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:28:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:30:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:31:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:31:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:33:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:36:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:39:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:39:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:40:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:40:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:46:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:46:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:46:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:47:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:47:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:48:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 13:55:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
