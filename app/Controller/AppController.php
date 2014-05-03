@@ -40,18 +40,17 @@ public $helpers = array(
 		'Session',
 		'Html' => array('className' => 'BoostCake.BoostCakeHtml'),
 		'Form' => array('className' => 'BoostCake.BoostCakeForm'),
-		'Paginator' => array('className' => 'BoostCake.BoostCakePaginator'),
 	);
 public $components = array(
-        //'DebugKit.Toolbar',
+        'DebugKit.Toolbar',
         'Session',
         'Auth' => array(
             'loginRedirect' => array(
-                'controller' => 'app',
+                'controller' => 'website',
                 'action' => 'results'
             ),
             'logoutRedirect' => array(
-                'controller' => 'app',
+                'controller' => 'website',
                 'action' => 'index'
             )
         )

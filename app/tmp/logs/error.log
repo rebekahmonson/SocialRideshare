@@ -477,3 +477,1145 @@ Stack Trace:
 #3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-05-03 16:04:08 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 62]
+2014-05-03 16:04:08 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 62, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 62, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 16:04:10 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 62]
+2014-05-03 16:04:10 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 62)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 62, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 62, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 16:10:34 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:14:00 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:14:01 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:18:11 Error: Fatal Error (1): Cannot access empty property in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php, line 843]
+2014-05-03 16:18:11 Error: [FatalErrorException] Cannot access empty property
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Volumes/Storag...', 843)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Volumes/Storag...', 843, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Volumes/Storag...', 843, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 16:18:21 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:18:43 Error: Fatal Error (1): Cannot access empty property in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php, line 843]
+2014-05-03 16:18:43 Error: [FatalErrorException] Cannot access empty property
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Volumes/Storag...', 843)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Volumes/Storag...', 843, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Volumes/Storag...', 843, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 16:18:51 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:21:26 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:23:20 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:23:21 Error: [MissingHelperException] Helper class 10103303252482575Helper could not be found.
+Exception Attributes: array (
+  'class' => '10103303252482575Helper',
+  'plugin' => false,
+)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('101033032524825...')
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(824): HelperCollection->__isset('101033032524825...')
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp(11): View->__get('101033032524825...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(935): include('/Volumes/Storag...')
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(897): View->_evaluate('/Volumes/Storag...', Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(466): View->_render('/Volumes/Storag...')
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 16:54:40 Error: Fatal Error (64): Cannot redeclare class User in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Model/Commute.php, line 13]
+2014-05-03 16:54:40 Error: [FatalErrorException] Cannot redeclare class User
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Volumes/Storag...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Volumes/Storag...', 13, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Volumes/Storag...', 13, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:10:39 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - Facebook in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-03 17:10:39 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - Facebook
+Request URL: /auth/Facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/Volumes/Storag...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/Volumes/Storag...', 120, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php(120): trigger_error('Unsupported or ...', 256)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(31): Opauth->run()
+#4 [internal function]: OpauthAppController->index('Facebook')
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-05-03 17:10:39 Error: Fatal Error (256): Unsupported or undefined Opauth strategy - Facebook in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Vendor/Opauth/lib/Opauth/Opauth.php, line 120]
+2014-05-03 17:10:39 Error: [FatalErrorException] Unsupported or undefined Opauth strategy - Facebook
+Request URL: /auth/Facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(256, 'Unsupported or ...', '/Volumes/Storag...', 120)
+#1 [internal function]: ErrorHandler::handleError(256, 'Unsupported or ...', '/Volumes/Storag...', 120, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 256, 'Unsupported or ...', '/Volumes/Storag...', 120, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:18:32 Error: Fatal Error (4): syntax error, unexpected ';' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 54]
+2014-05-03 17:18:32 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:34:19 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 65]
+2014-05-03 17:34:19 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 65, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 65, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:34:20 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 65]
+2014-05-03 17:34:20 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 65, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 65, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:40:46 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 63]
+2014-05-03 17:40:46 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:40:52 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 63]
+2014-05-03 17:40:52 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:40:52 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 63]
+2014-05-03 17:40:52 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:42:20 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 17:42:20 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:42:21 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 17:42:21 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:43:18 Error: [MissingControllerException] Controller class CommuteController could not be found.
+Exception Attributes: array (
+  'class' => 'CommuteController',
+  'plugin' => NULL,
+)
+Request URL: /Commute/add
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 17:43:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(45): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 17:50:02 Error: Fatal Error (4): syntax error, unexpected ';' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 35]
+2014-05-03 17:50:02 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 35, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 35, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 17:51:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.*...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.*...', Array, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.*...', false)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(2875): Model->_readDataSource('first', Array)
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(39): Model->find('first', Array)
+#7 [internal function]: UsersController->opauth_complete()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 [internal function]: OpauthAppController->callback()
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#16 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-05-03 17:51:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.*...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.*...', Array, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.*...', false)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(2903): DboSource->read(Object(User), Array)
+#5 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(2875): Model->_readDataSource('first', Array)
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(39): Model->find('first', Array)
+#7 [internal function]: UsersController->opauth_complete()
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 [internal function]: OpauthAppController->callback()
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#15 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#16 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2014-05-03 17:52:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(46): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 17:52:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(46): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 17:52:41 Error: [MissingControllerException] Controller class CommuteController could not be found.
+Exception Attributes: array (
+  'class' => 'CommuteController',
+  'plugin' => NULL,
+)
+Request URL: /Commute/add
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 17:52:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(46): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:04:28 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:04:28 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:04:29 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:04:29 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:04:42 Error: Fatal Error (4): syntax error, unexpected end of file in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:04:42 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:04:44 Error: Fatal Error (4): syntax error, unexpected end of file in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:04:44 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:04:54 Error: Fatal Error (4): syntax error, unexpected end of file in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:04:54 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:04:56 Error: Fatal Error (4): syntax error, unexpected end of file in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:04:56 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:05:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(48): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:05:10 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(48): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:05:55 Error: Fatal Error (4): syntax error, unexpected '}' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:05:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:06:02 Error: Fatal Error (4): syntax error, unexpected '}' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:06:02 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:06:19 Error: Fatal Error (4): syntax error, unexpected '}' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:06:19 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:06:22 Error: Fatal Error (4): syntax error, unexpected '}' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:06:22 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:06:39 Error: Fatal Error (4): syntax error, unexpected end of file in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:06:39 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:06:39 Error: Fatal Error (4): syntax error, unexpected end of file in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:06:39 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:07:53 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 54]
+2014-05-03 18:07:53 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:08:09 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 54]
+2014-05-03 18:08:09 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:08:12 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 54]
+2014-05-03 18:08:12 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:08:23 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 54]
+2014-05-03 18:08:23 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:08:25 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 54]
+2014-05-03 18:08:25 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 54, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:08:37 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:08:37 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:08:38 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:08:38 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:10:15 Error: Fatal Error (4): syntax error, unexpected ';' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 37]
+2014-05-03 18:10:15 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 37, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 37, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:10:17 Error: Fatal Error (4): syntax error, unexpected ';' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 37]
+2014-05-03 18:10:17 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 37, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 37, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:11:11 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:11:11 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:11:13 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 52]
+2014-05-03 18:11:13 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 52, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:12:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 35]
+2014-05-03 18:12:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Volumes/Storag...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:12:25 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 35]
+2014-05-03 18:12:25 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Volumes/Storag...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:13:18 Error: Fatal Error (4): syntax error, unexpected '<' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 38]
+2014-05-03 18:13:18 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 38, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 38, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:13:19 Error: Fatal Error (4): syntax error, unexpected '<' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 38]
+2014-05-03 18:13:19 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 38, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 38, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:15:47 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:15:47 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:15:49 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 53]
+2014-05-03 18:15:49 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 53)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 53, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:16:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(49): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:16:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4294967295' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(49): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:17:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(49): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:17:55 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(49): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:18:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(52): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:18:51 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(52): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:20:11 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(52): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:20:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ri...', Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `ri...')
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php(52): Model->save()
+#5 [internal function]: UsersController->opauth_complete()
+#6 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Plugin/Opauth/Controller/OpauthAppController.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 [internal function]: OpauthAppController->callback()
+#11 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OpauthController), Array)
+#12 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(OpauthController), Object(CakeRequest), Object(CakeResponse))
+#14 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-05-03 18:22:11 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 35]
+2014-05-03 18:22:11 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Volumes/Storag...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:22:11 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/UsersController.php, line 35]
+2014-05-03 18:22:11 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Volumes/Storag...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Volumes/Storag...', 35, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 18:23:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-03 19:04:40 Error: Fatal Error (4): syntax error, unexpected ''dateFormat'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 57]
+2014-05-03 19:04:40 Error: [FatalErrorException] syntax error, unexpected ''dateFormat'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 57)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 57, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 57, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:15:18 Error: Fatal Error (4): syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 48]
+2014-05-03 19:15:18 Error: [FatalErrorException] syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 48, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 48, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:15:23 Error: Fatal Error (4): syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 48]
+2014-05-03 19:15:23 Error: [FatalErrorException] syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 48, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 48, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:15:24 Error: Fatal Error (4): syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 48]
+2014-05-03 19:15:24 Error: [FatalErrorException] syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 48, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 48, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:15:52 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 56]
+2014-05-03 19:15:52 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:16:12 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 56]
+2014-05-03 19:16:12 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:16:24 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 56]
+2014-05-03 19:16:24 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:16:29 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 56]
+2014-05-03 19:16:29 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:16:29 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 56]
+2014-05-03 19:16:29 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 56, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:18:39 Error: Fatal Error (4): syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 51]
+2014-05-03 19:18:39 Error: [FatalErrorException] syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:19:10 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 51]
+2014-05-03 19:19:10 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:20:38 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 51]
+2014-05-03 19:20:38 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:20:39 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/opauth_complete.ctp, line 51]
+2014-05-03 19:20:39 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /auth/callback
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 51, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:29:03 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/Controller/CommutesController.php, line 63]
+2014-05-03 19:29:03 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /commutes/add
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Volumes/Storag...', 63)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Volumes/Storag...', 63, Array)
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-05-03 19:29:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

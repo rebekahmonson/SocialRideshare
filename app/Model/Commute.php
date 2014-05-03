@@ -1,6 +1,6 @@
 <?php
 App::uses('AppModel', 'Model');
-class User extends AppModel{
+class Commute extends AppModel{
 	public $name = 'Commute';
 
 	public $belongsTo = array(
