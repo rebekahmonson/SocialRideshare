@@ -2015,3 +2015,15 @@ Stack Trace:
 #3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
 #4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-05-04 03:22:51 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
