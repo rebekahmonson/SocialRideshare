@@ -1619,3 +1619,140 @@ Request URL: /img/sunrise4.png
 Stack Trace:
 #0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-05-04 03:24:27 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:24:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:25:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:25:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:31:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:31:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/miami.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:31:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/traffic.jpg
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:33:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:33:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/traffic.jpg
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:33:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/miami.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:33:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:33:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/traffic.jpg
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:33:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/miami.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:35:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:37:14 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
