@@ -55,5 +55,7 @@ public $components = array(
             )
         )
     );
-
+public function beforeFilter() {
+        $this->Auth->allow('index', 'opauth_complete');
+    }
 }

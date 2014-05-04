@@ -1,7 +1,11 @@
 <?php
 class UsersController extends AppController {
-  public function login(){}    
 
+function beforeFilter()
+{
+    parent::beforeFilter();
+    $this->Auth->allow('logout');
+}
     public function logout(){
     // $this->Session->write('user', $user);
     // $this->Session->write('email', $email);
