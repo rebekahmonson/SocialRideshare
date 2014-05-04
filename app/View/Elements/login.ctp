@@ -9,7 +9,7 @@
 			echo 'nope';
 			}?> -->
 
-		<a href="/auth/facebook"><button type="submit" class="btn btn-default btn-sm"><i class="fa fa-facebook-square"></i> Log in </button></a>
+		<a href="http://pooldtest.com/auth/facebook" class="btn btn-default btn-sm"><i class="fa fa-facebook-square"></i> Log in </a>
     	
 
    	

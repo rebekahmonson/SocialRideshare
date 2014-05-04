@@ -1619,3 +1619,399 @@ Request URL: /img/sunrise4.png
 Stack Trace:
 #0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-05-03 23:45:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:19:20 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /contact
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:19:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:30:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:30:39 Error: [MissingControllerException] Controller class Miami.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Miami.pngController',
+  'plugin' => NULL,
+)
+Request URL: /miami.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:32:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:32:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:33:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:34:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/img/miami.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:34:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:35:26 Error: [MissingControllerException] Controller class SimgController could not be found.
+Exception Attributes: array (
+  'class' => 'SimgController',
+  'plugin' => NULL,
+)
+Request URL: /simg/miami.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:35:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:36:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 00:36:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/sunrise4.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:43:32 Error: [MissingControllerException] Controller class IimgController could not be found.
+Exception Attributes: array (
+  'class' => 'IimgController',
+  'plugin' => NULL,
+)
+Request URL: /iimg/pooldlogo-sm.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:44:02 Error: [MissingControllerException] Controller class IimgController could not be found.
+Exception Attributes: array (
+  'class' => 'IimgController',
+  'plugin' => NULL,
+)
+Request URL: /iimg/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:44:26 Error: [MissingControllerException] Controller class IimgController could not be found.
+Exception Attributes: array (
+  'class' => 'IimgController',
+  'plugin' => NULL,
+)
+Request URL: /iimg/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:45:30 Error: [MissingControllerException] Controller class IimgController could not be found.
+Exception Attributes: array (
+  'class' => 'IimgController',
+  'plugin' => NULL,
+)
+Request URL: /iimg/pooldlogo.png
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:55:41 Error: [MissingControllerException] Controller class Pooldtest.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Pooldtest.comController',
+  'plugin' => NULL,
+)
+Request URL: /pooldtest.com/auth/facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:55:59 Error: [MissingControllerException] Controller class Pooldtest.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Pooldtest.comController',
+  'plugin' => NULL,
+)
+Request URL: /pooldtest.com/auth/facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:56:25 Error: [MissingControllerException] Controller class Pooldtest.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Pooldtest.comController',
+  'plugin' => NULL,
+)
+Request URL: /pooldtest.com/auth/facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 02:56:27 Error: [MissingControllerException] Controller class Pooldtest.comController could not be found.
+Exception Attributes: array (
+  'class' => 'Pooldtest.comController',
+  'plugin' => NULL,
+)
+Request URL: /pooldtest.com/auth/facebook
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:10:33 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:10:51 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:10:58 Error: [MissingControllerException] Controller class ResultsController could not be found.
+Exception Attributes: array (
+  'class' => 'ResultsController',
+  'plugin' => NULL,
+)
+Request URL: /results
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-04 03:11:08 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:11:26 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:13:13 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:13:21 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:13:29 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:14:52 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:14:55 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:15:01 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:15:08 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:15:23 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:15:25 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:15:28 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:16:00 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-05-04 03:16:41 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-05-04 03:17:40 Error: [MissingViewException] View file "/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -41,39 +41,62 @@
 }
 
 .navbar-inverse .navbar-brand:hover{
-  color:#ed7d71;
+  color:#dbedff;
 }
 
 .navbar-inverse .navbar-brand .branddescriptor{
 	font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
+.navbar .btn{
+  margin-top:2px;
 
+}
+.navbar-toggle{
+  background-color:#44494F;
+  border:none;
+}
+.navbar-toggle:hover{
+  background-color:#777;
+  border:none;
+}
+ul.nav a:hover { color: #dbedff !important; }
 
 /*-------Colors-----*/
 
 html {
   position: relative;
+  background: url(/img/miami.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #fff;
   min-height: 100%; /*for sticky footer*/
 }
 body {
   font-family: 'Oswald', sans-serif;
-  font-weight: 300; 
-  background-color: #DBEDFF;
+  font-weight: 300;
+  font-size: 150%; 
+  background-color: transparent;/*#DBEDFF*/
   /* Margin bottom by sticky footer height */
   margin-bottom: 160px;
+}
+.content{
+  background:none;
+  margin:10px;
 }
 h2{
   font-family: 'Oswald', sans-serif;
   font-weight: 300; 
 }
-.btn-default{
-  background-color: #ed7d71;
-  border-color:#ed7d71;
-}
-.btn-default:hover{
-  background-color: #ea6557;
-  border-color:#ea6557;
+.btn{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; 
+  border:none;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+          border-radius: 20px !important;
 }
 
 /*---------Center---------------*/
@@ -84,60 +107,34 @@ h2{
   text-align: center;
 }
 /*---------Jumbotron-------------*/
-.jumbotron{
-  background: url(../img/sunrise4.png);
-  background-size: cover;
-  position:relative;
-  repeat:none;
-  margin-top: 50px;
+.jumbotron {
+  background: url(/img/traffic.jpg) no-repeat center center;
+  height: 400px;
 }
 .jumbotron h1{
-	font-family: "kari-pro", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 315%;
+	font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+	font-size: 500%;
   line-height:-20px;
-	color:#ed7d71;
+	color:#fff;
 }
-/*.jumbotron .visible-xs h1{
-  font-family: "kari-pro", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 200%;
-  color:#ed7d71;
-}
-*/
-.jumbotron .btn{
-	font-family: "kari-pro", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 200%;
-	padding: 2px;
-	width:60px;
-	height:60px;
-	border:none;
-	-webkit-border-radius: 100px !important;
-     -moz-border-radius: 100px !important;
-          border-radius: 100px !important;
-  margin-top:10px;
-}
-.jumbotron .btn:hover{
-	background-color: #ea6557;
-}
+
 .jumbotron p{
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#ed7d71;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size:300%; 
+  color:#fff;
 }
-.jumbotron input{
-  margin-top: 10px;
-}
-.bigsearch{
-  text-align: center;
-  color:#ed7d71;
-  font-size:210%;
-}
+
+
 /* --------Sticky footer styles--------- */
 #footer {
-  color: #fff;
+  color: #777;
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 160px;
+  height: 100px;
   padding-top: 20px;
   background-color: #44494F;
 }
@@ -165,3 +162,13 @@ h2{
 #content{
   margin-top:75px;
 }
+.indexrow{
+  background: url(/img/miami.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #fff;
+}
+
+
