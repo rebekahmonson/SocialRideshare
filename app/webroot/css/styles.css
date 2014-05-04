@@ -162,13 +162,11 @@ h2{
 #content{
   margin-top:75px;
 }
-.indexrow{
-  background: url(/img/miami.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #fff;
+#logininfo{
+color: #fff;
+}
+#logininfo a{
+color: #dbedff !important;
 }
 
 

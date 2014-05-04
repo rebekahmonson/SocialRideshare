@@ -8,5 +8,8 @@ class WebsiteController extends AppController {
 	function index(){
 
 	}
+	function results(){
+
+	}
 	
 }

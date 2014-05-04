@@ -67,11 +67,12 @@
 												'label' => 'I can drive!'
 												)); ?>
 
-											<?php echo $this->Form->submit('Get poold!', array(
+											<!--<?php echo $this->Form->submit('Get poold!', array(
 												'div' => 'form-group',
 												'class' => 'btn btn-default'
-											)); ?>
+											)); ?>-->
 											<?php echo $this->Form->end(); ?>
+											<a href="/website/results" class="btn btn-default btn-sm">Get Poold</a>
 									</div>
 							</div>
 						<!--<?php debug($_SESSION)?>-->	

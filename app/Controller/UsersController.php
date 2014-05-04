@@ -6,13 +6,24 @@ function beforeFilter()
     parent::beforeFilter();
     $this->Auth->allow('logout');
 }
+
+    public function login(){
+    // $this->Session->write('user', $user);
+    // $this->Session->write('email', $email);
+    // $this->Session->write('pic', $pic);
+    // $this->Session->write('id', $id);
+    return $this->redirect('/pages/results');
+    }
+
     public function logout(){
     // $this->Session->write('user', $user);
     // $this->Session->write('email', $email);
     // $this->Session->write('pic', $pic);
     // $this->Session->write('id', $id);
       $this->Session->destroy();
-      $this->redirect($this->Auth->logout());
+    $this->redirect(
+        array('controller' => 'website', 'action' => 'index')
+        );
     }
 
 
