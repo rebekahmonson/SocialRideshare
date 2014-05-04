@@ -9,7 +9,8 @@
 		<div class="row">
 			<div class="col-md-6"></div>   
 			<div class="col-md-6">
-			<p>Co-pilots for your commute …</p>
+			<h3>Co-pilots for your commute …</h3>
+			<p>Changing commuting culture, one ride at a time.</p>
 			</div>
 		</div>
 

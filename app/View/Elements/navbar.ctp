@@ -8,7 +8,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="/website">poold</a>
+	      <a class="navbar-brand" href="/website"><img src="/img/pooldlogo-sm.png" width="12px" style="float:left;margin-right:2px;margin-top:2px;">poold</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -22,7 +22,7 @@
 	            <li><a href="#">By Reviewer</a></li>
 	          </ul>
 	        </li>
--->	        <li><a href="/contact">about</a></li>
+        <li><a href="/contact">about</a></li>-->	
 	      </ul>
 	      <?php echo $this->element("login");?>
 	    </div><!-- /.navbar-collapse --> 

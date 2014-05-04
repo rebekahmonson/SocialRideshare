@@ -10,20 +10,21 @@
 	<div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-4 centerfy">
+        <img src="/img/carpool.png" width="100px">
+          <h2>Going downtown, to the office, or to the beach?</h2>
+          <p>Poold makes finding copilots for your commute easy as pie. Enter your starting and destination ZIP, find a friend, and get 'poold!</p>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-4 centerfy">
+          <img src="/img/leaf.png" width="100px">
+          <h2>Save energy and time. </h2>
+          <p>Carpooling reduces the number of single-driver vehicles on the road, helps friends, and increases alternative transportation options. Poold's schedule-ahead capabilities also save you time. </p>
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-4 centerfy">
+          <img src="/img/like.png" width="100px">
+          <h2>Ride with friends. 
+<br/>Safety first!</h2>
+          <p>Using your social network to find compatible 'poolers allows users more personal security when sharing rides. It also means more face-time with the people who matter. </p>
         </div>
       </div>
 <!-- END CONTENT -->

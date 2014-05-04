@@ -32,7 +32,7 @@
 
 /*------- Navbar ----------*/
 .navbar-inverse {
-  background-color: #47637F; /*--lighten--*/
+  background-color: #47637F; 
   border:none;
 }
 .navbar-inverse .navbar-brand{
@@ -81,6 +81,7 @@ body {
   background-color: transparent;/*#DBEDFF*/
   /* Margin bottom by sticky footer height */
   margin-bottom: 160px;
+  color: #444;
 }
 .content{
   background:none;
@@ -97,6 +98,9 @@ h2{
     -webkit-border-radius: 20px !important;
     -moz-border-radius: 20px !important;
           border-radius: 20px !important;
+}
+.btn-info{
+back-ground color: #47637F !important;
 }
 
 /*---------Center---------------*/
@@ -118,11 +122,16 @@ h2{
   line-height:-20px;
   color:#fff;
 }
-
+.jumbotron h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size:200%; 
+  color:#fff;
+}
 .jumbotron p{
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
-  font-size:300%; 
+  font-size:150%; 
   color:#fff;
 }
 

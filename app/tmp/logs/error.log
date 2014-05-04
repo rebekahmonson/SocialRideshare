@@ -1881,3 +1881,12 @@ Stack Trace:
 #1 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest), Object(CakeResponse))
 #2 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-05-04 08:00:41 Error: [MissingControllerException] Controller class ContactController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactController',
+  'plugin' => NULL,
+)
+Request URL: /contact
+Stack Trace:
+#0 /Volumes/Storage/Users/rebekahmonson/Desktop/rideshare/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
